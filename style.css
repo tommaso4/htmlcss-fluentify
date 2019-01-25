@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  background-color: #31059a;
+  color: #fff;
+}
+
+.row{
+  width: 85vw;
+  margin: auto;
+}
+
+.row:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.left{
+  float: left;
+  width: 70%;
+  height: 53px;
+  line-height: 53px;
+}
+
+.left a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.left a:hover{
+  color: orange;
+}
+
+.left img{
+  padding-right: 40px;
+  vertical-align: middle;
+}
+
+.right a{
+  text-decoration: none;
+  color: white;
+}
+
+.right{
+  float: right;
+  width: 30%;
+  height: 53px;
+  line-height: 53px;
+}
+
+.btn-1{
+  border: 1px solid #009aff;
+  background-color: #31059a;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.btn-2{
+  background-color: green;
+  border: 1px solid green;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+/* fine conteiner 1 */
+
+.conteiner-2{
+  background-color: #dedede;
+  padding: 35px 0;
+}
+
+.conteiner-2 > h2,h3{
+  text-align: center;
+}
+
+.conteiner-2 > h3{
+  color: #737373;
+}
+/* fine conteiner2 */
+
+.conteiner-3 img{
+  height: 230px;
+}
+.conteiner-3 h3{
+  height: 100px;
+  padding: 40px 0;
+  color: green;
+}
+
+.conteiner-3 h5{
+  height: 100px;
+  padding: 40px 0;
+}
+
+.ok{
+  float: left;
+  text-align:center;
+  width: 33.333%;
+  margin-top: 30px;
+}
+/* fine cpnteiner3 */
+.conteiner-4 img{
+  height: 400px;
+}
+.sinistra, .destra{
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.destra{
+  padding: 80px 100px;
+}
+
+.destra p {
+  margin: 20px 0;
+  color: #cecece;
+}
+
+.destra a {
+  font-size: 30px;
+  color: blue;
+}
